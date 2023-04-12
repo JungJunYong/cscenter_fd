@@ -1,0 +1,28 @@
+.dtec_head{
+    position: relative;
+    z-index: 110;
+    height: 80px;
+    width: 100%;
+}
+
+.dtec_head.trans .common_top_bx {
+    position: relative;
+    background: none;
+    margin: 0 auto;
+}
+
+.common_top_bx {
+    width: 100%;
+    height: 80px;
+}
+
+.common_top_bx h1 {
+    float: left;
+    width: 420px;
+    margin-left: 40px;
+}
+
+.trans.common_top_bx h1 a{
+    background:url(/imgs/renew/lg_ERP_helpdesk_w.png) no-repeat left center;
+
+}

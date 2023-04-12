@@ -1,0 +1,67 @@
+.today_ban_bx {
+    position: relative;
+    z-index: 200;
+    background: #e7f3ff;
+
+
+}
+
+.today_ban_bx .bg_img {
+    height: 120px;
+}
+
+.today_ban_bx .bg_img .con_bx {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.con_bx .banner_img_guide {
+    width: 150px;
+    height: 120px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.con_bx .btn_all {
+    display: inline-block;
+}
+
+.banner_title_box {
+    width: 416px;
+    height: 70px;
+    margin: 25px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.banner_title_box.small {
+    width: 120px;
+    margin-left: 20px;
+    border: 0px solid;
+}
+
+.con_bx .banner_img_guide .banner_title {
+    font-size: 24px;
+    color: #004b96;
+    font-weight: bold;
+    margin: 0px 0px 15px 0px;
+}
+
+.banner_title_highlight {
+    color: #1c90fb;
+}
+.banner_sub_title {
+    font-size: 14px;
+}
+
+
+.today_ban_bx .con_bx .today_bx {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    padding-right: 38px;
+}
+

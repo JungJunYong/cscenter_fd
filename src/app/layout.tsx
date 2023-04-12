@@ -11,7 +11,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="ko">
+      <head>
+          <link rel="stylesheet" type="text/css" href="/css/new_base.css"/>
+          <link rel="stylesheet" type="text/css" href="/css/new_contents.css"/>
+          <link rel="stylesheet" type="text/css" href="/css/new_contents2.css"/>
+          <link rel="stylesheet" type="text/css" href="/css/new_layout.css"/>
+          <link rel="stylesheet" type="text/css" href="/css/new_main.css"/>
+          <link rel="stylesheet" type="text/css" href="/css/new_media.css"/>
+      </head>
       <body>{children}</body>
     </html>
   )

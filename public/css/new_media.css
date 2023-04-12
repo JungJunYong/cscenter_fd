@@ -1,0 +1,33 @@
+﻿@charset "UTF-8";
+
+
+/* 메인컨테츠 */
+.home_wrap{}
+
+@media screen and (max-width: 1500px) { 
+
+   
+
+  .main_video_bx .video_list_bx{width:978px;}
+  .main_video_bx .video_list .list_bx{width:310px;}
+
+	.common_top_bx{position:relative;margin:0 auto;}    
+	
+	.common_top_bx h1{margin-left:30px;width:420px;}
+/*
+  .common_top_bx .main_nav{margin-right:10px;}
+  .common_top_bx .main_nav > li{padding:0 10px;}    
+  .common_top_bx .main_nav > li > a{font-size:16px;}
+  .common_top_bx .main_nav > li > ul > li{padding:0 20px;}
+  .common_top_bx .main_nav > li > ul > li > a{font-size:16px;}
+
+	.common_top_bx .menu_con{margin-right:30px;}
+*/
+	.main_video_bx .video_list .list_bx .con_txt .hash{margin-top:10px;}
+	.main_video_bx .video_list .list_bx .con_txt .txt2{height:31px;font-size:20px;line-height: 25px;}
+  	.main_video_bx .video_tab{width:978px;}
+	.main_video_bx .video_tab ul li a{width:163px;font-size:15px;}
+	.main_video_bx .video_list .list_bx .img_bx{height:184px;}
+	.main_video_bx .video_list .list_bx .img_bx img{height:184px;}
+
+}
